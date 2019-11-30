@@ -83,18 +83,28 @@
         }
     ],
     "bodySize": 192,
-    "postData": {
+    "body": {
+        "type": "json",
         "mimeType": "text/javascript+json",
         "text": "{\"method\":\"Comments.Preview\",\"params\":[{\"author\":\"Testname\",\"email\":\"testemail@yandex.ru\",\"url\":\"http://example.com/\",\"text\":\"dogs are nice\",\"entry_xid\":\"6a0120a565428a970c0120a56bd77d970c\"}]}",
-        "data": {
-            "method": "Comments.Preview",
-            "params": [{
-                "author": "Testname",
-                "email": "testemail@yandex.ru",
-                "url": "http://example.com/",
-                "text": "dogs are nice",
-                "entry_xid": "6a0120a565428a970c0120a56bd77d970c"
-            }]
+        "value": {
+            "type": "object",
+            "fields": {
+                "method": "Comments.Preview",
+                "params": {
+                    "type": "array",
+                    "value": [{
+                        "type": "object",
+                        "fields": {
+                            "author": "Testname",
+                            "email": "testemail@yandex.ru",
+                            "url": "http://example.com/",
+                            "text": "dogs are nice",
+                            "entry_xid": "6a0120a565428a970c0120a56bd77d970c"
+                        }
+                    }]
+                }
+            }
         }
     }
 }

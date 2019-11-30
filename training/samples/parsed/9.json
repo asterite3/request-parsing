@@ -77,10 +77,11 @@
         }
     ],
     "bodySize": 598,
-    "postData": {
+    "body": {
         "mimeType": "multipart/form-data; boundary=----WebKitFormBoundaryxVHoik6ZetSxlnY0",
-        "text": "\r\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"image_url\"\r\n\r\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"encoded_image\"; filename=\"test\"\r\nContent-Type: application/octet-stream\r\n\r\nAAAAAAAAAA\u0000BBB\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"image_content\"\r\n\r\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"filename\"\r\n\r\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"hl\"\r\n\r\nru\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0--\r\n",
-        "params": [{
+        "text": "------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"image_url\"\r\n\r\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"encoded_image\"; filename=\"test\"\r\nContent-Type: application/octet-stream\r\n\r\nAAAAAAAAAA\u0000BBB\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"image_content\"\r\n\r\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"filename\"\r\n\r\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"hl\"\r\n\r\nru\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0--\r\n",
+        "type": "form_multipart",
+        "value": [{
             "name": "image_url",
             "value": ""
         }, {

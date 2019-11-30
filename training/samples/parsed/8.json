@@ -140,10 +140,11 @@
         }
     ],
     "bodySize": 165,
-    "postData": {
+    "body": {
+        "type": "form_multipart",
         "mimeType": "multipart/form-data; boundary=----WebKitFormBoundary1ZnTBRRugBRjyujg",
         "text": "------WebKitFormBoundary1ZnTBRRugBRjyujg\r\nContent-Disposition: form-data; name=\"SEARCH_KONGRESS_FILTER\"\r\n\r\nbiggest hall\r\n------WebKitFormBoundary1ZnTBRRugBRjyujg--\r\n",
-        "params": [{
+        "value": [{
             "name": "SEARCH_KONGRESS_FILTER",
             "value": "biggest hall"
         }]

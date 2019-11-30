@@ -57,10 +57,11 @@
     }],
     "cookies": [],
     "bodySize": 79,
-    "postData": {
+    "body": {
         "mimeType": "application/x-www-form-urlencoded",
+        "type": "form_urlencoded",
         "text": "lastname=testlogin&firstname=testname&password=testpassword&action=%C2%F5%EE%E4",
-        "params": [{
+        "value": [{
                 "name": "lastname",
                 "value": "testlogin"
             },
@@ -74,7 +75,14 @@
             },
             {
                 "name": "action",
-                "value": "%C2%F5%EE%E4"
+                "text": "%C2%F5%EE%E4",
+                "type": "urlencoded",
+                "value": {
+                    "textEncoding": "base64",
+                    "text": "wvXu5A==",
+                    "type": "cp1251",
+                    "value": "\u0412\u0445\u043e\u0434"
+                }
             }
         ]
     }

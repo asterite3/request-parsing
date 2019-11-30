@@ -7,14 +7,6 @@
             "value": "httpbin.org"
         },
         {
-            "name": "Proxy-Connection",
-            "value": "keep-alive"
-        },
-        {
-            "name": "Cache-Control",
-            "value": "max-age=0"
-        },
-        {
             "name": "Upgrade-Insecure-Requests",
             "value": "1"
         },
@@ -33,6 +25,10 @@
         {
             "name": "Accept-Language",
             "value": "en-US,en;q=0.9"
+        },
+        {
+            "name": "Connection",
+            "value": "close"
         }
     ],
     "queryString": [],
