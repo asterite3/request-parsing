@@ -30,9 +30,10 @@ def deep_compare(a, b):
         return False
 
     if isinstance(a, dict):
-        for k, v in a.iteritems():
-            if k not in b:
-                return False
+        a_keys = a.viewkeys()
+        if a_keys != b.viewkeys():
+            return False
+        for k in a_keys:
             if not deep_compare(a[k], b[k]):
                 return False
         return True
