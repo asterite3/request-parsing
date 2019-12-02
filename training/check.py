@@ -58,7 +58,8 @@ def jsondiff(a, b):
     return '\n'.join(difflib.context_diff(a_json_lines, b_json_lines))
 
 if __name__ == "__main__":
-    os.chdir(os.path.dirname(__file__))
+    os.chdir(os.path.dirname(os.path.realpath(__file__)))
+
 
     tests = sorted([
         {"fname": fname, "num": int(os.path.basename(fname).split('.')[0])}
